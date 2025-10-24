@@ -13,19 +13,19 @@ To write and execute an assembly language program using the 8051 microcontroller
 
 5.Perform the following steps for each byte:
   
-  Move the data from Block A (pointed by R0) to Accumulator A.
+  -Move the data from Block A (pointed by R0) to Accumulator A.
   
-  Store that value temporarily in R3.
+  -Store that value temporarily in R3.
   
-  Move the data from Block B (pointed by R1) to Accumulator A.
+  -Move the data from Block B (pointed by R1) to Accumulator A.
   
-  Copy this value to Block A (R0).
+  -Copy this value to Block A (R0).
   
-  Retrieve the original Block A value from R3 and store it in Block B (R1).
+  -Retrieve the original Block A value from R3 and store it in Block B (R1).
   
-  Increment both R0 and R1 to point to the next byte.
+  -Increment both R0 and R1 to point to the next byte.
   
-  Decrement R2 until it becomes zero.
+  -Decrement R2 until it becomes zero.
 
 6.When R2 = 0, the data exchange is complete.
 

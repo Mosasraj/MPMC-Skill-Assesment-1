@@ -18,6 +18,7 @@ To write and execute an assembly language program using the 8051 microcontroller
 6.When R2 = 0, the data exchange is complete.
 7.Stop the program.
 # Program
+```asm
 ORG 0000H                      ; Program start address
     MOV R0, #30H               ; Pointer to start of Block A
     MOV R1, #40H               ; Pointer to start of Block B
@@ -38,6 +39,7 @@ SWAP_BYTES:
     SJMP EXCHANGE_LOOP         ; Repeat loop
 END_PROGRAM:
 END
+```
 # Output
 
 <img width="900" height="500" alt="1 1" src="https://github.com/user-attachments/assets/6c77fbf8-9b22-489a-9a63-cbe5f81e9a67" />

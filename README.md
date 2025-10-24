@@ -4,18 +4,31 @@
 To write and execute an assembly language program using the 8051 microcontroller that exchanges the contents of two memory blocks of equal length stored in internal RAM.
 # Algorithm:
 1.Start the program and initialize the data pointer registers.
+
 2.Load the starting address of Block A into R0.
+
 3.Load the starting address of Block B into R1.
+
 4.Load the number of bytes (block length) into R2.
+
 5.Perform the following steps for each byte:
+  
   Move the data from Block A (pointed by R0) to Accumulator A.
+  
   Store that value temporarily in R3.
+  
   Move the data from Block B (pointed by R1) to Accumulator A.
+  
   Copy this value to Block A (R0).
+  
   Retrieve the original Block A value from R3 and store it in Block B (R1).
+  
   Increment both R0 and R1 to point to the next byte.
+  
   Decrement R2 until it becomes zero.
+
 6.When R2 = 0, the data exchange is complete.
+
 7.Stop the program.
 # Program
 ```asm

@@ -2,7 +2,7 @@
 # Assembly language program in 8051 to exchange the contents of two memory blocks of equal length.
 # Aim:
 To write and execute an assembly language program using the 8051 microcontroller that exchanges the contents of two memory blocks of equal length stored in internal RAM.
-#Algorithm:
+# Algorithm:
 1.Start the program and initialize the data pointer registers.
 2.Load the starting address of Block A into R0.
 3.Load the starting address of Block B into R1.

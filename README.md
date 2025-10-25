@@ -31,7 +31,7 @@ To write an 8086 assembly language program using MASM that finds the smallest nu
 # Program
 ```asm
 DATA SEGMENT
-    ARR DB 25, 14, 67, 9, 31    ; Array elements
+    ARR DB 5, 6, 9, 8, 7    ; Array elements
     N   DB 5                     ; Number of elements
     SMALL DB ?                   ; To store smallest number
 DATA ENDS

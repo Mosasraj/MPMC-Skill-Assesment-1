@@ -2,9 +2,15 @@
 # Find Smallest Number in an Array Using 8086 Assembly (MASM)
 # Aim:
 To write an 8086 assembly language program using MASM that finds the smallest number in a given array of N elements and displays it on the screen.
-# Apparatus / Software Required:
-+Keil µVision IDE
-# Algorithm:
+## Apparatus / Software Required:
+MASM 8086 Assembler
+
+LINK.EXE (MASM Linker)
+
+DOSBox (to run MASM programs)
+
+Windows PC
+## Algorithm:
 1.Start the program and initialize the data pointer registers.
 
 2.Load the starting address of Block A into R0.

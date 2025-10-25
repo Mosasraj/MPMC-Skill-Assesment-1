@@ -76,7 +76,8 @@ END START
 ```
 # Output
 <img width="567" height="408" alt="image" src="https://github.com/user-attachments/assets/10219730-814d-4a68-91e0-25491527850d" />
-![image](https://github.com/user-attachments/assets/4008b2f0-4d49-4acf-bf44-e1da593baf05)
+
+![WhatsApp Image 2025-10-25 at 11 05 52_ac6f55ae](https://github.com/user-attachments/assets/2a93c385-9a41-4208-bd94-c8d95ee243a6)
 
 # Result
 The program successfully Find Smallest Number in an Array Using 8086 Assembly (MASM).

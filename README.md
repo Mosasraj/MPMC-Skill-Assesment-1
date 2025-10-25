@@ -1,7 +1,7 @@
 # Skill-Assesment-1
-# Assembly language program in 8051 to exchange the contents of two memory blocks of equal length.
+# Find Smallest Number in an Array Using 8086 Assembly (MASM)
 # Aim:
-To write and execute an assembly language program using the 8051 microcontroller that exchanges the contents of two memory blocks of equal length stored in internal RAM.
+To write an 8086 assembly language program using MASM that finds the smallest number in a given array of N elements and displays it on the screen.
 # Apparatus / Software Required:
 +Keil µVision IDE
 # Algorithm:
